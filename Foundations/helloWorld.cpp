@@ -25,7 +25,7 @@ int main()
 		switch (choice)
 		{
 		case 0: 
-			break;
+			exit(0);
 		case 1:
 			cout << helloWorld() << endl;
 			break;
